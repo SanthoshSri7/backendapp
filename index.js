@@ -18,7 +18,7 @@ app.use(express.urlencoded({extended: false}));
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("HI ALL WELCOME TO ZOOMCAR");
+  res.send("Hi all welcome to RentalCars");
 });
 
 app.use("/user", userRoute);
